@@ -1,16 +1,18 @@
-import pyrogram
-pyrogram.utils.MIN_CHANNEL_ID = -1002247483647
+import sys
+if sys.platform != "win32":
+    import uvloop
+    uvloop.install()
+
 from pyrogram import Client, errors
 from pyrogram.enums import ChatMemberStatus, ParseMode
 
 import config
-
 from ..logging import LOGGER
 
 
 class Aviax(Client):
     def __init__(self):
-        LOGGER(__name__).info(f"Starting Bot...")
+        LOGGER(__name__).info("Starting Bot...")
         super().__init__(
             name="AviaxMusic",
             api_id=config.API_ID,
@@ -24,7 +26,7 @@ class Aviax(Client):
     async def start(self):
         await super().start()
         self.id = self.me.id
-        self.name = self.me.first_name + " " + (self.me.last_name or "")
+        self.name = self.me.first_name
         self.username = self.me.username
         self.mention = self.me.mention
 

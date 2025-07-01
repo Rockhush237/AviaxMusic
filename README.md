@@ -29,6 +29,56 @@ This process will allow you to bypass the YouTube restrictions and ensure smooth
 
 ---
 
+## 🎵 Using the API for Audio Streaming
+
+If you do not want to deal with YouTube restrictions, you can rely on our API for audio streaming. The API allows you to fetch audio directly without needing cookies, making the process simpler and more reliable.
+
+---
+
+### 🔑 How to Get an API Key
+
+You can now generate and manage your API keys through our official dashboard — no more Telegram DMs required!
+
+[![API Dashboard](https://img.shields.io/badge/Visit-Dashboard-black?style=for-the-badge&logo=vercel)](https://panel.thequickearn.xyz)
+[![API Community](https://img.shields.io/badge/Join-API%20Community-green?style=for-the-badge&logo=telegram)](https://t.me/+DXGe6UE90y01NDVl)
+[![Contact Rahul](https://img.shields.io/badge/DM-@RahulTC-blueviolet?style=for-the-badge&logo=telegram)](https://t.me/ItzRahul)
+
+#### 🛠️ Steps to Get Started:
+
+1. **Sign Up**: Visit the dashboard and create an account with your email.
+2. **Free Plan**: All new users receive a **Free Plan** with:
+   - 🔁 1,000 daily requests
+   - 🗓️ Valid for 30 days
+3. **Upgrade Plans**: Choose a higher daily limit plan below (INR ₹ / month):
+
+| Plan Name          | Daily Requests | Monthly Price  |
+|--------------------|----------------|----------------|
+| Free Plan          | 1,000          | ₹0             |
+| Basic Plan         | 5,000          | ₹50            |
+| Standard Plan      | 10,000         | ₹50            |
+| Pro Plan           | 15,000         | ₹75            |
+| Entriprise Plan    | 20,000         | ₹100           |
+| Mega Plan          | 50,000         | ₹250           |
+
+4. **Billing & Renewal**:
+   - Manage everything through the dashboard
+   - Extend key validity or upgrade instantly
+5. **Integration**:
+   - Copy your API key and add it to your `.env` or config file:
+     ```env
+     API_KEY=your-api-key-here
+     ```
+
+---
+
+### 📌 Important Notes About API Usage
+
+- 🔄 **Daily Reset**: Request limits reset at midnight (IST) every day.
+- 🎵 **Audio-Only API**: Video support requires cookies (see YouTube section above).
+- 💬 **Community Support**: For API-specific help, join the [API Community Group](https://t.me/+DXGe6UE90y01NDVl)
+
+---
+
 ### 🌟 Features
 
 - 🎵 **Multiple Sources:** Play music from various platforms.
